@@ -15,6 +15,8 @@
 		7B13E3B5242C0F17008EECBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B13E3B3242C0F17008EECBE /* LaunchScreen.storyboard */; };
 		7B13E3C0242C0F17008EECBE /* FitmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13E3BF242C0F17008EECBE /* FitmojiTests.swift */; };
 		7B13E3CB242C0F17008EECBE /* FitmojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13E3CA242C0F17008EECBE /* FitmojiUITests.swift */; };
+		7BDF0706242FC2C800DC6B99 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BDF0705242FC2C800DC6B99 /* UserCell.xib */; };
+		7BDF0708242FC47600DC6B99 /* ExerciseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BDF0707242FC47600DC6B99 /* ExerciseCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7B13E3C6242C0F17008EECBE /* FitmojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitmojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B13E3CA242C0F17008EECBE /* FitmojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitmojiUITests.swift; sourceTree = "<group>"; };
 		7B13E3CC242C0F17008EECBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDF0705242FC2C800DC6B99 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		7BDF0707242FC47600DC6B99 /* ExerciseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,13 @@
 				7B13E3AA242C0F15008EECBE /* SceneDelegate.swift */,
 				7B13E3AC242C0F15008EECBE /* ViewController.swift */,
 				7B13E3AE242C0F15008EECBE /* Main.storyboard */,
+				7BDF0705242FC2C800DC6B99 /* UserCell.xib */,
+				7BDF0707242FC47600DC6B99 /* ExerciseCell.xib */,
 				7B13E3B1242C0F17008EECBE /* Assets.xcassets */,
 				7B13E3B3242C0F17008EECBE /* LaunchScreen.storyboard */,
 				7B13E3B6242C0F17008EECBE /* Info.plist */,
+				7B13E3D9242C1063008EECBE /* backend */,
+				7B13E3D8242C105D008EECBE /* frontend */,
 			);
 			path = Fitmoji;
 			sourceTree = "<group>";
@@ -126,6 +134,20 @@
 				7B13E3CC242C0F17008EECBE /* Info.plist */,
 			);
 			path = FitmojiUITests;
+			sourceTree = "<group>";
+		};
+		7B13E3D8242C105D008EECBE /* frontend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = frontend;
+			sourceTree = "<group>";
+		};
+		7B13E3D9242C1063008EECBE /* backend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = backend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BDF0706242FC2C800DC6B99 /* UserCell.xib in Resources */,
 				7B13E3B5242C0F17008EECBE /* LaunchScreen.storyboard in Resources */,
+				7BDF0708242FC47600DC6B99 /* ExerciseCell.xib in Resources */,
 				7B13E3B2242C0F17008EECBE /* Assets.xcassets in Resources */,
 				7B13E3B0242C0F15008EECBE /* Main.storyboard in Resources */,
 			);
